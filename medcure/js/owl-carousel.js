@@ -865,9 +865,7 @@ function(a, b) {
     "use strict";
     var c = function(d) {
         this._core = d, this._hashes = {}, this.$element = this._core.$element, this._handlers = {
-            "initialized.owl.carousel": a.proxy(function() {
-                "URLHash" == this._core.settings.startPosition && a(b).trigger("hashchange.owl.navigation")
-            }, this),
+            "initialized.o
             "prepared.owl.carousel": a.proxy(function(b) {
                 var c = a(b.content).find("[data-hash]").andSelf("[data-hash]").attr("data-hash");
                 this._hashes[c] = b.content
