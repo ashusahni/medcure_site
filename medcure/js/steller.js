@@ -46,8 +46,7 @@
 		positionProperty = {
 			position: {
 				setLeft: function($elem, left) { $elem.css('left', left); },
-				setTop: function($elem, top) { $elem.css('top', top); }
-			},
+				setTop: funct
 			transform: {
 				setPosition: function($elem, left, startingLeft, top, startingTop) {
 					$elem[0].style[prefixedTransform] = 'translate3d(' + (left - startingLeft) + 'px, ' + (top - startingTop) + 'px, 0)';
