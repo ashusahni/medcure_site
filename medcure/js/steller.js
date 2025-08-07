@@ -23,9 +23,6 @@
 				getLeft: function($elem) { return $elem.scrollLeft(); },
 				setLeft: function($elem, val) { $elem.scrollLeft(val); },
 
-				getTop: function($elem) { return $elem.scrollTop();	},
-				setTop: function($elem, val) { $elem.scrollTop(val); }
-			},
 			position: {
 				getLeft: function($elem) { return parseInt($elem.css('left'), 10) * -1; },
 				getTop: function($elem) { return parseInt($elem.css('top'), 10) * -1; }
