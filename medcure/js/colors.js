@@ -43,9 +43,7 @@ $(document).ready(function(){
 	$(".color10" ).click(function(){
 		$("#colors" ).attr("href", "css/color/color10.css" );
 		return false;
-	});
-	$(".color11" ).click(function(){
-		$("#colors" ).attr("href", "css/color/color11.css" );
+	});or/color11.css" );
 		return false;
 	});
 	$(".color12" ).click(function(){
